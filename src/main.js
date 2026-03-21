@@ -33,7 +33,18 @@ class App {
         this.seats = Array(this.capacity).fill(true);
     }
 
-    
+    assignAvailability(){
+        const icons = document.querySelectorAll('.bi-app');
+
+        icons.forEach((icon, index) => {
+            const isAvailable = this.seats[index];
+            icon.classList.add(isAvailable ? 'text-success' : 'text-danger');
+        });   
+    }
+
+    changeAvailability(seatIndex){
+        
+    }
 }
 
 const app = new App();
