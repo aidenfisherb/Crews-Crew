@@ -1,5 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+import './style.css';
 
 mapboxgl.accessToken = 'pk.eyJ1IjoidGF5bG9ycDciLCJhIjoiY21uMGpud2JtMGp5ZjJwcHp6bm1tMTNmeSJ9.C5QsANDbTwJ0vMH-ul3jyA';
 const map = new mapboxgl.Map({

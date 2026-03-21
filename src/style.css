@@ -1,0 +1,88 @@
+body {
+  font-family: system-ui, -apple-system, sans-serif;
+  background: #f8f9fa;
+  color: #212529;
+}
+
+header .navbar {
+  padding: 0;
+}
+header h1 {
+  font-weight: 700;
+  letter-spacing: -0.5px;
+}
+header .btn {
+  border: 1px solid #dee2e6;
+  border-radius: 6px;
+  font-size: 0.875rem;
+  padding: 5px 14px;
+  color: #495057;
+}
+header .btn:hover {
+  background: #e9ecef;
+  color: #212529;
+}
+header hr {
+  border-color: #dee2e6;
+  opacity: 1;
+}
+header > p {
+  font-size: 0.95rem;
+  color: #6c757d;
+}
+
+.card {
+  border: 1px solid #dee2e6;
+  border-radius: 10px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.06);
+}
+.card-title {
+  font-weight: 600;
+  font-size: 1rem;
+}
+.card-text {
+  font-size: 0.875rem;
+  color: #6c757d;
+}
+
+.border-warning {
+  border-width: 2px !important;
+  border-radius: 8px !important;
+  background: #fffdf5;
+}
+
+.seat-wrap {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+.seat-num {
+  position: absolute;
+  font-size: 0.7rem;
+  font-weight: 700;
+  line-height: 1;
+}
+
+#map {
+  border-radius: 10px;
+  margin-top: 1rem;
+  border: 1px solid #dee2e6;
+}
+
+
+.container .col-8 {
+  background: #fff;
+  border-color: #dee2e6 !important;
+  border-radius: 10px !important;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.06);
+}
+.form-control {
+  border-radius: 6px;
+  font-size: 0.875rem;
+}
+.btn-primary {
+  border-radius: 6px;
+  font-size: 0.875rem;
+  padding: 6px 20px;
+}
