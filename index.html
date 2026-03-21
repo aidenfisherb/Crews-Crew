@@ -4,9 +4,94 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>my-project</title>
+    <title>Bus-X</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
   </head>
   <body>
+      <h1 class="fs-3 text-center mt-5">Bus-X</h1>
+      <p class="text-center lead mt-3">Welcome to Bus-X! Here is the availability of your ride!</p>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="card mb-4">
+            <div class="card-body">
+              <h5 class="card-title">Bus Availability</h5>
+              <p class="card-text">Check the availability of buses in real-time.</p>
+              <div id="availability"></div>
+              <div class="text-center">
+                <div class="border rounded p-2 d-inline-block">
+                  <div class="d-flex gap-2 mb-1">
+                    <i class="bi bi-app fs-3"></i>
+                    <i class="bi bi-app fs-3 me-4"></i>
+                    <i class="bi bi-app fs-3"></i>
+                    <i class="bi bi-app fs-3"></i>
+                  </div>
+                  <div class="d-flex gap-2">
+                    <i class="bi bi-app fs-3"></i>
+                    <i class="bi bi-app fs-3 me-4"></i>
+                    <i class="bi bi-app fs-3"></i>
+                    <i class="bi bi-app fs-3"></i>
+                  </div>
+                  <div class="d-flex gap-2">
+                    <i class="bi bi-app fs-3"></i>
+                    <i class="bi bi-app fs-3 me-4"></i>
+                    <i class="bi bi-app fs-3"></i>
+                    <i class="bi bi-app fs-3"></i>
+                  </div>
+                  <div class="d-flex gap-2">
+                    <i class="bi bi-app fs-3"></i>
+                    <i class="bi bi-app fs-3 me-4"></i>
+                    <i class="bi bi-app fs-3"></i>
+                    <i class="bi bi-app fs-3"></i>
+                  </div>                  
+                  <div class="d-flex gap-2">
+                    <i class="bi bi-app fs-3"></i>
+                    <i class="bi bi-app fs-3 me-4"></i>
+                    <i class="bi bi-app fs-3"></i>
+                    <i class="bi bi-app fs-3"></i>
+                  </div>                  
+                  <div class="d-flex gap-2">
+                    <i class="bi bi-app fs-3"></i>
+                    <i class="bi bi-app fs-3 me-4"></i>
+                    <i class="bi bi-app fs-3"></i>
+                    <i class="bi bi-app fs-3"></i>
+                  </div>                  
+                  <div class="d-flex gap-2">
+                    <i class="bi bi-app fs-3"></i>
+                    <i class="bi bi-app fs-3 me-4"></i>
+                    <i class="bi bi-app fs-3"></i>
+                    <i class="bi bi-app fs-3"></i>
+                  </div>                  
+                  <div class="d-flex gap-2">
+                    <i class="bi bi-app fs-3"></i>
+                    <i class="bi bi-app fs-3 me-4"></i>
+                    <i class="bi bi-app fs-3"></i>
+                    <i class="bi bi-app fs-3"></i>
+                  </div>                  
+                  <div class="d-flex gap-2">
+                    <i class="bi bi-app fs-3"></i>
+                    <i class="bi bi-app fs-3 me-4"></i>
+                    <i class="bi bi-app fs-3"></i>
+                    <i class="bi bi-app fs-3"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card mb-4">
+            <div class="card-body">
+              <h5 class="card-title">Estimated wait time</h5>
+              <p class="card-text">How long will you have to wait for the next bus?</p>
+
+              <div id="wait-time">
+
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
     <div id="app"></div>
     <script type="module" src="/src/main.js"></script>
   </body>
