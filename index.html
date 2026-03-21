@@ -10,12 +10,22 @@
     <script src="https://api.mapbox.com/mapbox-gl-js/v3.3.0/mapbox-gl.js"></script>
   </head>
   <body>
-      <h1 class="fs-3 text-center mt-5">Bus-X</h1>
-      <p class="text-center lead mt-3">Welcome to Bus-X! Here is the availability of your ride!</p>
+    <header class="container mt-4">
+      <div class="navbar">
+        <h1 class="fs-3 fw-bold">Bus-X</h1>
+        <div>
+          <button class="btn">Live</button>
+          <button class="btn">Schedule</button>
+          <button class="btn">Routes</button>
+        </div>
+      </div>
+      <hr class="mt-3 mb-3">
+      <p class="text-start mt-5">Welcome back — here is your real-time ride status</p>
+    </header>
     <div class="container">
       <div class="row">
         <div class="col-md-6">
-          <div class="card mb-4">
+          <div class="card">
             <div class="card-body">
               <h5 class="card-title">Bus Availability</h5>
               <p class="card-text">Check the availability of buses in real-time.</p>
@@ -82,7 +92,7 @@
           </div>
         </div>
         <div class="col-md-6">
-          <div class="card mb-4">
+          <div class="card">
             <div class="card-body">
               <h5 class="card-title">Estimated wait time</h5>
               <p class="card-text">How long will you have to wait for the next bus?</p>
@@ -92,7 +102,7 @@
               </div>
             </div>
           </div>
-          <div>
+          <div class="">
             <div id="map" style="width:100%; height:400px;"></div>
           </div>
         </div>
