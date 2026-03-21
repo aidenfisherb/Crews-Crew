@@ -29,5 +29,12 @@ class App {
     constructor(){
         this.availability = document.getElementById('availability');
         this.wait = document.getElementById('wait-time');
+        this.capacity = 36;
+        this.seats = Array(this.capacity).fill(true);
     }
+
+    
 }
+
+const app = new App();
+app.assignAvailability();
